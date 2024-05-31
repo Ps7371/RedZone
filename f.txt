@@ -1,0 +1,36 @@
+npm i --legacy-peer-deps
+npm run dev
+npm install -g @sanity/cli
+>> sanity init --coupon javascriptmastery2022
+sanity manage
+sanity start
+
+HOMEPAGE-> rafce
+
+CREATE COMPONENTS AND IPORT IT TO MAIN INDEX FILE USING A DEMO INDEX FILE IN COMPONENT
+ CREATE COMPONENTS (HEROBBANER) <=FOR EG
+ connect to sanity studio
+ 1\ create lib folder and client.js
+ create sanity client with api token project id
+import whole in index FILE
+
+
+we use getserverside props in next js to get data from sanity
+whatever returned by getserverside props is directly used in Home()
+
+ {/* passing the props recived by getserverside props to the Herobanner.jsx file */}->index
+ accept props in jsx file
+
+ SLUG AN ELEMENT THAT IS UNIQUE (IFWE HAVE MULTIPLE PRODUCTS OF SAME NAME  THEN SLUG WILL BE ONLY ELEMNET DIFF)
+
+
+
+
+
+ ctr+shifr+r for a hard reload
+
+ //layout COMPONENT
+ at _app.js  import our custom component for layout
+
+ getstaticprops->when data required to render the page is available at build time ahead of req
+ 
